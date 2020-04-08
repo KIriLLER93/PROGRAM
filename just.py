@@ -31,7 +31,8 @@ def JUSTRANGE(G, S = 2):
 	if S == 2:
 		return A
 	elif S >= A[-1]:
-		print("В данном диапазоне нет простых чисел!!!")
+		# print("В данном диапазоне нет простых чисел!!!")
+		return []
 	else:
 		i = len(A) - 1 
 		while A[i] >= S:
