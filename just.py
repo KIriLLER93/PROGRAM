@@ -40,5 +40,5 @@ def JUSTRANGE_by_Erastophen(G, S = 2):
 		A = A[i + 1:]
 		return A
 
-__version__ = "1.0"
+__version__ = "1.1"
 
