@@ -14,7 +14,7 @@ def JUST(G):
 
 # print(JUST(11))
 
-def JUSTRANGE(G, S = 2):
+def JUSTRANGE_by_Erastophen(G, S = 2):
 	"""Возвращает последовательность всех простых чисел от S до G"""
 
 	A = [x for x in range (2, G)]
